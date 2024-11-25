@@ -1,0 +1,20 @@
+h1, h3, h3, p, a{
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+h1 , h2 ,h3 {
+    width: 100%;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+#zap:hover{
+    border-bottom: 2px solid greenyellow;
+    border-radius: 20pt;
+    transition: 1s;
+}
+#zap{
+    transition: 1s;border-bottom:none ;
+}

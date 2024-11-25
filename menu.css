@@ -1,0 +1,56 @@
+ body{
+    margin: 0;
+    padding: 0;
+ }
+ a{
+    text-decoration: none;
+ }
+ nav{
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+ }
+ .menu{
+    align-content: space-between;
+    margin: 1px;
+    padding: 1px;
+    color: azure;
+    border-bottom: 1px solid greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .conteudo{
+    margin-top: 15px;
+ }
+ 
+
+ 
+ /*@media only screen and (max-width: 700px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: rgb(17, 17, 17);
+    }
+    .menu{
+        display: inline flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: white;
+        padding-right: 5px;
+        font-size: 1.5rem;
+        transition: 2s;
+    }
+    .menu:hover{
+        background-image: linear-gradient(45deg, cyan, blue);
+        padding: 10px;
+        border-radius: 10pt;
+        transition: 2s;
+        
+    }
+}
